@@ -18,8 +18,26 @@ const Blogs = () => {
       .then((data) => setBlogs(data));
   }, []);
 
+  const handleBookmark = (blog) => {
+    if (markedBlogs.find((markedBlog) => markedBlog.id == blog.id)) {
+      setIsExist(true);
+    } else {
+      const newMarkedBlogs = [...markedBlogs, blog];
+      setMarkedBlogs(newMarkedBlogs);
+      setIsExist(false);
+    }
+  };
+  //   calculate min
+  const [min, setMin] = useState(0);
+  const addMin = (readTime) => {
+    const totalMin = min + readTime;
+    setMin(totalMin);
+  };
+
   return (
     <div>
+      <Toastify isExist={isExist}></Toastify>
+      <Header></Header>
       <div className="md:flex ">
         <div className="md:w-8/12">
           {blogs.map((blog) => (
