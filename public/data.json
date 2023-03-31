@@ -1,0 +1,53 @@
+[  
+    {    
+        "id": 1,    "author": "John Smith",
+        "title": "10 Tips for Writing Better Code",    
+        "images": {      
+            "cover": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010127.jpg?w=900&t=st=1680215993~exp=1680216593~hmac=e1884e8a20e209dc5cfea5f26b4431f8f34042d9a7485873af71aa351ba31b05",      
+            "author": "https://img.freepik.com/free-photo/side-view-handsome-young-male_23-2148446230.jpg?size=626&ext=jpg&ga=GA1.1.1573788310.1680185864&semt=ais"    
+        },    
+        "readTime": "5 minutes",    
+        "publishDate": "2022-01-15"  
+    },
+    {    
+        "id": 2,    "author": "Sarah Lee",    "title": "The Benefits of Meditation",    
+        "images": {      
+            "cover": "https://www.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_38669454.htm#query=programming&position=3&from_view=search&track=sph",      
+            "author": "https://img.freepik.com/free-photo/young-man-wearing-blue-outfit_1298-235.jpg?size=626&ext=jpg&ga=GA1.1.1573788310.1680185864&semt=ais"    
+            },    
+            "readTime": "7 minutes",    
+            "publishDate": "2022-02-01"  
+    },  
+    {    
+        "id": 3,    
+        "author": "Tom Johnson",    
+        "title": "How to Build a Successful Business",    
+        "images": {      
+            "cover": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010121.jpg?t=st=1680201708~exp=1680202308~hmac=726d05fcb372662602a580425ec8f929c05cc6f7e2c5bb8271c10c98d48d9990",      
+            "author": "https://img.freepik.com/free-photo/portrait-serious-sad-blonde-young-man-holding-clipboard-with-pen_23-2148036669.jpg?size=626&ext=jpg&ga=GA1.1.1573788310.1680185864&semt=ais"    
+        },
+        "readTime": "15 minutes",
+        "publishDate": "2022-03-10"  
+    },  
+    {    "id": 4,    
+        "author": "Maggie Chen",    
+        "title": "The Art of Photography",    
+        "images": {      
+            "cover": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010121.jpg?t=st=1680201708~exp=1680202308~hmac=726d05fcb372662602a580425ec8f929c05cc6f7e2c5bb8271c10c98d48d9990",      
+            "author": "https://www.freepik.com/search?format=search&query=author%20image%20male"    
+        },    
+        "readTime": "8 minutes",    
+        "publishDate": "2022-04-05"  
+    },  
+    {    
+        "id": 5,    
+        "author": "David Lee",    
+        "title": "Why You Should Travel Alone",    
+        "images": {      
+            "cover": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010121.jpg?t=st=1680201708~exp=1680202308~hmac=726d05fcb372662602a580425ec8f929c05cc6f7e2c5bb8271c10c98d48d9990",      
+            "author": "https://img.freepik.com/free-photo/person-makes-some-notes-notepad_140725-7919.jpg?size=626&ext=jpg&ga=GA1.1.1573788310.1680185864&semt=ais"    
+        },    
+        "readTime": "12 minutes",    
+        "publishDate": "2022-05-20"  
+        }
+    ]
