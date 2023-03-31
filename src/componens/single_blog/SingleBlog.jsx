@@ -8,5 +8,4 @@ const SingleBlog = (props) => {
         </div>
     );
 };
-
 export default SingleBlog;
