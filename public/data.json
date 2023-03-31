@@ -10,7 +10,7 @@
         "publishDate": "2022-01-15"  
     },
     {    
-        "id": 2,    "author": "Md. Tamim",    "title": "The Benefits of Meditation",    
+        "id": 2,    "author": "Md. Tamim",    "title": "Which programming language should you learn fast?",    
         "images": {      
             "cover": "https://img.freepik.com/free-photo/professional-programmer-working-late-dark-office_1098-18705.jpg?w=900&t=st=1680230619~exp=1680231219~hmac=be361148bad4a7d938275b6006ac062efe51aeeba7389671032920227d9bb04d",      
             "author": "https://img.freepik.com/free-photo/young-man-wearing-blue-outfit_1298-235.jpg?size=626&ext=jpg&ga=GA1.1.1573788310.1680185864&semt=ais"    
@@ -21,7 +21,7 @@
     {    
         "id": 3,    
         "author": "Md. Rocky",    
-        "title": "How to Build a Successful Business",    
+        "title": "Learn how to create a responsive CSS grid layout",    
         "images": {      
             "cover": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010121.jpg?t=st=1680201708~exp=1680202308~hmac=726d05fcb372662602a580425ec8f929c05cc6f7e2c5bb8271c10c98d48d9990",      
             "author": "https://img.freepik.com/free-photo/portrait-serious-sad-blonde-young-man-holding-clipboard-with-pen_23-2148036669.jpg?size=626&ext=jpg&ga=GA1.1.1573788310.1680185864&semt=ais"    
@@ -31,7 +31,7 @@
     },  
     {    "id": 4,    
         "author": "Md. Shamim",    
-        "title": "The Art of Photography",    
+        "title": "Best Programming Blogs to Improve Your Coding Skills",    
         "images": {      
             "cover": "https://img.freepik.com/free-vector/software-developers-programming-computer-with-script_74855-7196.jpg?w=1060&t=st=1680266814~exp=1680267414~hmac=43a965ff4284a49cb9eaae376657d1a6da8f80460e5f0918070183a94677573d",      
             "author": "https://img.freepik.com/free-photo/asian-male-freelance-journalist-glasses-sitting-outdoor-cafe-writing-notebook_1098-17291.jpg?size=626&ext=jpg&ga=GA1.1.1573788310.1680185864&semt=ais"    
@@ -42,7 +42,7 @@
     {    
         "id": 5,    
         "author": "Md. Yeasin",    
-        "title": "Why You Should Travel Alone",    
+        "title": "Top 5 Code Editors for Software Developers",    
         "images": {      
             "cover": "https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?w=900&t=st=1680270837~exp=1680271437~hmac=e1dfd2a922c700606c4355e06b25b218202804e888fea25981c679ce013a95df",      
             "author": "https://img.freepik.com/free-photo/person-makes-some-notes-notepad_140725-7919.jpg?size=626&ext=jpg&ga=GA1.1.1573788310.1680185864&semt=ais"    

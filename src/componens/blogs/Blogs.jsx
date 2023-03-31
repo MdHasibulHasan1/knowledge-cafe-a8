@@ -4,7 +4,8 @@ import { useEffect, useState } from "react";
 import BookMark from "../BookMark/BookMark";
 import Header from "../Header/Header";
 import SingleBlog from "../single_blog/SingleBlog";
-import Toastify from "../Toastify/Toastify.jsx";
+import Toastify from "../Toastify/Toastify";
+
 //
 
 const Blogs = () => {
