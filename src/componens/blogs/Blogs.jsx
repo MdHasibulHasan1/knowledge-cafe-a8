@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 
 import BookMark from "../BookMark/BookMark";
 import Header from "../Header/Header";
+import Questions from "../Questions/Questions";
 import SingleBlog from "../single_blog/SingleBlog";
 import Toastify from "../Toastify/Toastify";
 
@@ -54,6 +55,7 @@ const Blogs = () => {
           <BookMark min={min} markedBlogs={markedBlogs}></BookMark>
         </div>
       </div>
+      <Questions></Questions>
     </div>
   );
 };

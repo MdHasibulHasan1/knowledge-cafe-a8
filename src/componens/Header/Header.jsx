@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <div className="flex mx-3 h-20 justify-between items-center">
-      <h3 className="font-medium text-3xl">Knowledge Cafe</h3>
+      <h3 className="font-serif font-semibold text-3xl">Knowledge Cafe</h3>
       <div>
         <ul className="flex gap-3 items-center h-20">
           <li>

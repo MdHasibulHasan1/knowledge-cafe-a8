@@ -34,7 +34,7 @@ const SingleBlog = ({ blog, handleBookmark, addMin }) => {
       </div>
       <div className="text-left">
         <h1 className=" font-semibold text-3xl">{title}</h1>
-        <p>#</p>
+        <p className="my-2">#beginners #programming</p>
         <button
           onClick={() => addMin(parseFloat(readTime))}
           className="underline text-blue-800"
