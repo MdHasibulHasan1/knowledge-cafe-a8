@@ -1,16 +1,13 @@
 import React from "react";
 import { useEffect, useState } from "react";
-
 import BookMark from "../BookMark/BookMark";
 import Header from "../Header/Header";
 import Questions from "../Questions/Questions";
 import SingleBlog from "../single_blog/SingleBlog";
 import Toastify from "../Toastify/Toastify";
-
-//
+import { toast } from "react-toastify";
 
 const Blogs = () => {
-  const [isExist, setIsExist] = useState(false);
   const [blogs, setBlogs] = useState([]);
   const [markedBlogs, setMarkedBlogs] = useState([]);
 
@@ -21,14 +18,24 @@ const Blogs = () => {
   }, []);
 
   const handleBookmark = (blog) => {
-    if (markedBlogs.find((markedBlog) => markedBlog.id == blog.id)) {
-      setIsExist(true);
+    // console.log(blog.id);
+    const isMarked = markedBlogs.find(
+      (markedBlog) => markedBlog.id === blog.id
+    );
+    if (isMarked) {
+      toast.warning("You Have Already Bookmarked This Blog");
+      // Swal.fire({
+      //   icon: "error",
+      //   title: "Oops...",
+      //   text: "You Have Already Bookmarked This Blog",
+      //   footer: '<a href="">Why do I have this issue?</a>',
+      // });
     } else {
       const newMarkedBlogs = [...markedBlogs, blog];
       setMarkedBlogs(newMarkedBlogs);
-      setIsExist(false);
     }
   };
+
   //   calculate min
   const [min, setMin] = useState(0);
   const addMin = (readTime) => {
@@ -38,7 +45,7 @@ const Blogs = () => {
 
   return (
     <div>
-      <Toastify isExist={isExist}></Toastify>
+      <Toastify></Toastify>
       <Header></Header>
       <div className="md:flex ">
         <div className="md:w-8/12">
@@ -51,7 +58,7 @@ const Blogs = () => {
             ></SingleBlog>
           ))}
         </div>
-        <div className="md:w-4/12 inline ">
+        <div className="md:w-4/12 mx-2 inline ">
           <BookMark min={min} markedBlogs={markedBlogs}></BookMark>
         </div>
       </div>

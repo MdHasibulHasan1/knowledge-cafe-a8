@@ -4,7 +4,7 @@ const Questions = () => {
   return (
     <div className="text-left w-11/12 mb-5 mx-auto">
       <ol className="list-decimal">
-        <li className="mt-3 ">
+        <li className="mt-3 ml-3 ">
           <span className="bg-cyan-100">How does React work?</span> <br />
           React is a JavaScript library for building user interfaces. It works
           by creating a virtual representation of the UI in memory, called the
@@ -14,7 +14,7 @@ const Questions = () => {
           needs to be changed, making the process of updating the UI more
           efficient.
         </li>
-        <li className="mt-3 ">
+        <li className="mt-3 ml-3 ">
           <span className="bg-cyan-100">
             What is the difference between state and props?
           </span>
@@ -51,7 +51,7 @@ const Questions = () => {
             </div>
           </div>
         </li>
-        <li className="mt-3 ">
+        <li className="mt-3 ml-3">
           <span className="bg-cyan-100">How does useState work?</span> <br />
           useState is a built-in hook in React that allows functional components
           to have stateful logic. It takes an initial value as an argument and
@@ -61,17 +61,52 @@ const Questions = () => {
           the state variable. This allows the component to update its display
           based on the current state value.
         </li>
-        <li className="mt-3 ">
+        <li className="mt-3 ml-3">
           <span className="bg-cyan-100">
             Purpose of useEffect other than fetching data.
           </span>
           <br />
-          The useEffect hook in React is commonly used for fetching data, but it
-          can also be used for other purposes such as updating the document
-          title, managing subscriptions, animating components, and handling user
-          input. useEffect allows you to perform side effects in your
-          components, and it runs after every render by default, but can also be
-          optimized to run only when specific dependencies change.
+          The useEffect hook allows you to perform side effects in your
+          components in a way that is both declarative and flexible. By default,
+          useEffect runs after every render, but you can also optimize it to run
+          only when specific dependencies change. This can help you avoid
+          unnecessary re-renders and improve the performance of your
+          application. Some examples of how you might use the useEffect hook
+          include: <br />
+          <ol className="list-disc ml-4 font-medium">
+            <li>
+              Fetching data from an API and updating your component's state
+              based on the response.
+            </li>
+            <li>
+              Updating the document title based on the current state of your
+              component.
+            </li>
+            <li>Attaching event listeners to the window or document object.</li>
+            <li>
+              Animating components based on changes in their props or state.
+            </li>
+            <li>
+              Cleaning up after your component by unsubscribing from event
+              listeners or clearing timeouts and intervals.
+            </li>
+            <li>
+              Updating the component based on changes in the URL using the
+              useLocation hook from react-router-dom
+            </li>
+            <li>
+              Setting up timers or scheduling tasks using the setTimeout and
+              setInterval functions.
+            </li>
+            <li>
+              Integrating with third-party libraries by calling their APIs
+              inside the useEffect function.
+            </li>
+          </ol>
+          Overall, the useEffect hook is a powerful tool that can help you
+          manage side effects in your React components in a declarative and
+          flexible way. By using it effectively, you can write more efficient,
+          maintainable, and scalable React code.
         </li>
       </ol>
     </div>
