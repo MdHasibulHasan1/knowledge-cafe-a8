@@ -2,7 +2,7 @@ import React from "react";
 
 const Questions = () => {
   return (
-    <div className="text-left w-11/12 mx-auto">
+    <div className="text-left w-11/12 mb-5 mx-auto">
       <ol className="list-decimal">
         <li className="mt-3 ">
           <span className="bg-cyan-100">How does React work?</span> <br />
@@ -54,9 +54,24 @@ const Questions = () => {
         <li className="mt-3 ">
           <span className="bg-cyan-100">How does useState work?</span> <br />
           useState is a built-in hook in React that allows functional components
-          to have stateful logic. The useState hook returns an array with two
-          elements: the current state value and a function to update the state
-          value.
+          to have stateful logic. It takes an initial value as an argument and
+          returns an array containing two elements: the current state value and
+          a function to update it. When the update function is called with a new
+          value, React re-renders the component and the new value is used for
+          the state variable. This allows the component to update its display
+          based on the current state value.
+        </li>
+        <li className="mt-3 ">
+          <span className="bg-cyan-100">
+            Purpose of useEffect other than fetching data.
+          </span>
+          <br />
+          The useEffect hook in React is commonly used for fetching data, but it
+          can also be used for other purposes such as updating the document
+          title, managing subscriptions, animating components, and handling user
+          input. useEffect allows you to perform side effects in your
+          components, and it runs after every render by default, but can also be
+          optimized to run only when specific dependencies change.
         </li>
       </ol>
     </div>
